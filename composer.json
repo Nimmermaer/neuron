@@ -1,0 +1,19 @@
+{
+    "name": "mb/neuron",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "author": [
+        {
+            "name": "Michael Blunck",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MB\\Neuron\\": "Classes"
+        }
+    }
+}

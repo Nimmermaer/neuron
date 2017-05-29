@@ -1,0 +1,53 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<!-- PRE LOADER -->
+
+<div class="preloader">
+    <div class="sk-spinner sk-spinner-wordpress">
+        <span class="sk-inner-circle"></span>
+    </div>
+</div>
+
+<!-- Navigation section  -->
+
+<f:render partial="Navigation" arguments="{_all}"/>
+
+<!-- Home Section -->
+<f:for each="{files}" as="file" iteration="fileIterator">
+    <f:if condition="{fileIterator.isFirst}">
+        <section id="home" class="main-gallery parallax-section" style="background: url({f:uri.image(src:'{file.uid}',treatIdAsReference:1)}) no-repeat;">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h1>{data.title} <br/>
+                            {data.subtitle}</h1>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </f:if>
+</f:for>
+
+
+<!-- Gallery Section -->
+
+<section id="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-1 col-md-10 col-sm-12">
+                {columnMain->f:format.raw()}
+           </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+
+<f:render partial="FooterBlock" arguments="{_all}"/>
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- SCRIPTS -->
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-05-28T18:41:58Z" product-name="neuron">
+		<header/>
+		<body>
+			<trans-unit id="tx_neuron_domain_model_socialnetwork">
+				<source>Social Network</source>
+			</trans-unit>
+			<trans-unit id="tx_neuron_domain_model_socialnetwork.icon">
+				<source>Icon</source>
+			</trans-unit>
+			<trans-unit id="tx_neuron_domain_model_socialnetwork.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_neuron_domain_model_socialnetwork.link">
+				<source>Link</source>
+			</trans-unit>
+			<trans-unit id="pages.tx_neuron_socialnetworks">
+				<source>Social Networks</source>
+			</trans-unit>
+			<trans-unit id="pages.tx_neuron_scrollbutton">
+				<source>Text im Scrollbutton</source>
+			</trans-unit>
+			<trans-unit id="pages.tx_neuron_scroll">
+				<source>Scrollbutton im Header</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

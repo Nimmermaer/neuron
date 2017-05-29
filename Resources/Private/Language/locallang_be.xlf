@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-05-28T18:41:58Z" product-name="neuron">
+		<header/>
+		<body>
+			<trans-unit id="gallery">
+				<source>Gallery</source>
+			</trans-unit>
+			<trans-unit id="projekt">
+				<source>Projekt</source>
+			</trans-unit>
+			<trans-unit id="call-To-Action">
+				<source>Call-To-Action</source>
+			</trans-unit>
+			<trans-unit id="hidden">
+				<source>Hidden</source>
+			</trans-unit>
+			<trans-unit id="default">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="teaser">
+				<source>Teaser</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,34 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 col-sm-6">
+                {columnFooterRight->f:format.html()}
+            </div>
+
+            <div class="col-md-4 col-md-offset-1 col-sm-6">
+                {columnFooterLeft->f:format.html()}
+            </div>
+
+            <div class="clearfix col-md-12 col-sm-12">
+                <hr>
+            </div>
+
+            <div class="col-md-12 col-sm-12">
+                <ul class="social-icon">
+                    <f:for each="{socialNetworks}" as="socialNetwork">
+                        <li>
+                            <f:link.external name="{socialNetwork.name}" uri="{socialNetwork.link}"  class="fa {socialNetwork.icon}" target="_blank"></f:link.external>
+                        </li>
+                    </f:for>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+</html>
